@@ -1,0 +1,82 @@
+/* RGB */
+.icon {
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+    font-size: 20px;
+    fill: #D7DCE2;
+    transition: all .2s ease-in-out; }
+.player {
+    position: absolute;
+    margin-top: 50px;
+    justify-content: center;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); }
+.player.play .player__timeline {
+      -webkit-transform: translateY(-90%);
+              transform: translateY(-90%); }
+    .player.play .player__album:after {
+      box-shadow: 0px 20px 24px -10px rgba(0, 0, 0, 0.2); }
+    .player.play .player__album {
+      top: 0; }
+    .player.play .pause {
+      display: inline-block; }
+    .player.play .play {
+      display: none; }
+    
+      .player__albumImg.active-song {
+        display: block; }
+    .player__bar {
+      background: transparent;
+      padding: 10px 25px;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      border-radius: 15px;
+      box-shadow: 0 30px 56px 6px rgba(0, 0, 0, 0.1);
+      position: relative;
+      z-index: 3; }
+    .player__controls {
+      display: flex;
+      align-items: center; }
+    .player__play {
+      cursor: pointer;
+      height: 80px;
+      width: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+      transition: all .2s ease-in-out;
+      margin-right: 3px;
+      position: relative; }
+      .player__play:hover {
+        background: transparent; }
+        .player__play:hover svg {
+          fill: #fff; }
+      .player__play svg {
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%); }
+        .player__play svg.pause {
+          display: none; }
+.titulo-banner{
+  
+  margin-top: -40px;
+}
+.title-locutores{
+  color: rgb(240, 123, 94);
+  font-size: 3em;
+  margin-top: 60px !important;
+}
+.title{
+  font-size: 3em;
+}
+.text-locutores{
+  text-align: center;
+  font-size: 1em;
+  
+}
